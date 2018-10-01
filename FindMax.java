@@ -1,7 +1,7 @@
 class FindMax {
   
   static int from(int[] numbers) {
-    if (numbers == null || !numbers.isEmpty()) {
+    if (numbers == null || numbers.length == 0) {
       throws new Exception("Given array 'numbers' is invalid. It must not be null or empty.");
     }
     
