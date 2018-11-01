@@ -9,6 +9,8 @@ public class Main {
 		if (N<100) {
 			count++;
 		}
+		else if(N == 1000){
+		}
 		else { 
 			while(N>0) {
 			array[i] = N%10;
